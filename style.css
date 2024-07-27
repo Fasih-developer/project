@@ -1,0 +1,62 @@
+ *{ 
+Margin:0%;
+Padding:0%;
+Box-sizing: border-box;
+}
+
+html,body{
+Width:100%;
+Height:100%;
+}
+body{
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+    overflow-x: hidden;
+}
+.hero{
+    width: 100vw;
+    height: 20vh;
+}
+.projects{
+    width: 100vw;
+    height: 80vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    position: relative;
+    justify-content: center;
+}
+.box{
+    border-bottom: 1px solid white;
+    width: 96%;
+    height: 12vw;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 3vw;
+    justify-content: space-between;
+    text-transform: uppercase;
+    background-position: center;
+    position: relative;
+}
+.box h1{
+    font-size: 3vw;
+}
+.box h5{
+    font-size: 1.2vw;
+}
+.box img{
+    opacity: 0;
+    pointer-events: none;
+    height: 200%;
+    z-index: 998;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+.third{
+    height: 100vh;
+    width: 100vw;
+}
